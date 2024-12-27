@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=3 uid="uid://c6fgf6vppww4c"]
+
+[ext_resource type="Script" path="res://Scenes/UI/ui_main.gd" id="1_ih5uy"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ih5uy")
+
+[node name="health" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -23.0
+offset_right = 56.0
+grow_vertical = 0
+text = "Health:"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[node name="health_num" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 60.0
+offset_top = -23.0
+offset_right = 100.0
+grow_vertical = 0
+text = "100"
